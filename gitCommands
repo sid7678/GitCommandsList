@@ -3,6 +3,7 @@ Git Commands
 -git status : To check the current status of the git file
 -git init -b main : To change the branch to the 'main'
 -git add <file name> : to stage it
+-git add . : to add all the files at once
 -git rm --cached <file>... : to unstage it
 -git commit -m " <message> " : to commit the changes 
 -git log : to track or view the past changes
@@ -11,3 +12,4 @@ Git Commands
 -git diff --staged : same as the above but work at staging area
 -git clean -n : to remove the problematic file (initialization)
 -git clean -f : to remove the file (confirmation)
+-cls : to clear the terminal
