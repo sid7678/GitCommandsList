@@ -9,3 +9,5 @@ Git Commands
 -git commit -a -m "<message>" : to skip the staging and do the commit directly  
 -git diff : to check the difference between the previous and the current file (while at working directory)
 -git diff --staged : same as the above but work at staging area
+-git clean -n : to remove the problematic file (initialization)
+-git clean -f : to remove the file (confirmation)
