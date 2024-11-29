@@ -1,0 +1,9 @@
+Git Commands
+-git init : To start the git in a file
+-git status : To check the current status of the git file
+-git init -b main : To change the branch to the 'main'
+-git add <file name> : to stage it
+-git rm --cached <file>... : to unstage it
+-git commit -m " <message> " : to commit the changes 
+-git log : to track or view the past changes
+-git commit -a -m "<message>" : to skip the staging and do the commit directly  
