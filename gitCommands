@@ -16,3 +16,8 @@ Git Commands
 -git rm --cached <filename> : to remove the file from the git server
 -git clone: to download the source code of any github project
 -git remote --v : to check the origin 
+
+>>>>>> two types of tags are there annotated and lightweight tag........
+-git tag -a <version no.> -m "message": assign the version to the file <<annotated tag>>
+
+-git show <version> : to show the details of the version assignment
