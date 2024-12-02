@@ -2,7 +2,7 @@
 >>>>This file contains the CMDs to push the folder from the system to the server
 
 For existing folder
--cd "C:\Users\singh\Git tutorial"
+-cd "C:\Projects\existing-folder"
 -git init
 -git add .
 -git commit -m "Initial commit"
