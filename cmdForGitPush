@@ -1,0 +1,21 @@
+>>>About this file
+>>>>This file contains the CMDs to push the folder from the system to the server
+
+For existing folder
+-cd "C:\Projects\existing-folder"
+-git init
+-git add .
+-git commit -m "Initial commit"
+-git remote add origin https://github.com/username/existing-folder.git
+-git push -u origin main
+
+
+For non-existing folder
+mkdir my-project
+cd my-project
+echo "Hello World!" > index.txt
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/username/my-project.git
+git push -u origin main

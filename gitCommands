@@ -14,3 +14,4 @@ Git Commands
 -git clean -f : to remove the file (confirmation)
 -cls : to clear the terminal
 -git rm --cached <filename> : to remove the file from the git server
+-git clone: to download the source code of any github project
