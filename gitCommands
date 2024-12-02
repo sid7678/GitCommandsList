@@ -15,3 +15,4 @@ Git Commands
 -cls : to clear the terminal
 -git rm --cached <filename> : to remove the file from the git server
 -git clone: to download the source code of any github project
+-git remote --v : to check the origin 
