@@ -26,3 +26,18 @@ Git Commands
 -git log --pretty=oneline : to view the commit messages of others
 -git clone <url> : to download the source code of the particular file
 -git pull origin main --rebase : This fetches the latest changes from the remote main branch and rebases your commits on top of it.
+
+>>>>>>>>git switch between branches
+-git checkout <branch name> : old version
+-git switch <branch name> : new version
+
+>>>> creating new branch
+-git checkout -b <branch name>
+-git switch -c feature2
+
+>>>> git show branches
+-git branch : to view the branches on the server
+-git branch --all : to view the all branches including the remote
+
+>>> deleting the branch
+-git branch -d <branch name>
