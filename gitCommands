@@ -25,3 +25,4 @@ Git Commands
 >>>> Q/q : to exit the git page in terminal
 -git log --pretty=oneline : to view the commit messages of others
 -git clone <url> : to download the source code of the particular file
+-git pull origin main --rebase : This fetches the latest changes from the remote main branch and rebases your commits on top of it.
